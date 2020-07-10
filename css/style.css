@@ -2074,12 +2074,12 @@ ul {
 
 /* line 1, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_our_depertment.scss */
 .our_depertment {
-  background-image: url("../img/review_bg.png");
+  background-image: url("../img/review_bg.png_");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 @media (max-width: 991px) {
@@ -2098,7 +2098,7 @@ ul {
   width: 100%;
   height: 100%;
   background-color: #1c19ab;
-  opacity: 0.8;
+  opacity: 0.1;
   z-index: -1;
 }
 
